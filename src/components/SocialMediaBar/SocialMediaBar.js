@@ -70,7 +70,7 @@ const MINIMAL_ICONS = [
 
 
 
-class App extends React.Component {
+class SocialMedia extends React.Component {
 
   render() {
 
@@ -196,23 +196,12 @@ class App extends React.Component {
 
             <h3 className={css(styles.h3)}>
 
-              This is a SocialMediaBar, with the styles passed into the
-
-              component as properties, not as key-value pairs in the "icons"
-
-              property.
 
             </h3>
 
             <a
 
-              className={css(styles.lineLink)}
-
-              href="https://github.com/rahrang/react-social-media-bar/blob/2e3d12693e48a92beab71814fb3d53e289fff998/examples/src/App.js#L76"
-
-              target="_blank"
-
-              rel="noopener noreferrer"
+         
 
             >
 
@@ -398,4 +387,4 @@ const styles = StyleSheet.create({
 
 
 
-export default SocialMediaBar;
+export default SocialMedia;

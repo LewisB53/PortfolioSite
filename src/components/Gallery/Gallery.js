@@ -1,7 +1,6 @@
 // Component for gallery
 import React, { Component } from 'react';
 import GalleryImage from './GalleryImage';
-import GalleryContainer from '../../containers/GalleryContainer';
 import GalleryModal from './GalleryModal';
 import classes from './Gallery.css';
 
@@ -18,7 +17,7 @@ class Gallery extends Component{
      
       
       this.state = {
-  
+        showModal: false,
         url: ''
       }
 
